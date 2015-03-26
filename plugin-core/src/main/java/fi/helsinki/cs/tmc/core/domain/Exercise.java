@@ -14,7 +14,7 @@ import com.google.gson.annotations.SerializedName;
 public class Exercise implements Serializable {
     private static final long serialVersionUID = 1L;
 
-    private static final String DATE_FORMAT = "yyyy-MM-dd'T'HH:mm:ssX";
+    private static final String DATE_FORMAT = "yyyy-MM-dd'T'HH:mm:ss.SSSXXX";
 
     private int id;
 
